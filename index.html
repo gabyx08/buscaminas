@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buscaminas</title>
+    <style media="screen">
+      h1{
+        text-align: center;
+      }
+      button{
+        width: 40px;
+        height: 40px;
+      }
+      #botonReiniciar{
+        width: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Buscaminas</h1>
+
+    <div>
+      <table width="200" height="200" border="1" align="center" id="tabla2">
+        <tr>
+          <td ><button value="1" class="num"></button></td>
+          <td ><button value="" class="vacio"></button></td>
+          <td ><button value="" class="vacio"></button></td>
+          <td ><button value="1" class="num"></button></td>
+        </tr>
+        <tr>
+          <td ><button value="💣" class="bomba" ></button></td>
+          <td ><button value="" class="vacio"></button></td>
+          <td ><button value="2" class="num"></button></td>
+          <td ><button value="💣" class="bomba" ></button></td>
+        </tr>
+        <tr>
+          <td ><button value="💣" class="bomba" ></button></td>
+          <td ><button value="3" class="num"></button></td>
+          <td ><button value="" class="vacio"></button></td>
+          <td ><button value="💣" class="bomba" ></button></td>
+        </tr>
+        <tr>
+          <td ><button value="" class="vacio"></button></td>
+          <td ><button value="" class="vacio"></button></td>
+          <td ><button value="💣" class="bomba" ></button></td>
+          <td ><button value="2" class="num"></button></td>
+        </tr>
+        <tr>
+          <td colspan="4"><button id="botonReiniciar">Reiniciar</button></td>
+        </tr>
+      </table>
+    </div>
+    <script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>
