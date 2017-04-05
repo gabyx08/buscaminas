@@ -5,8 +5,9 @@ for (var i=0 ; i<bombas.length;i++){
 }
 
 function mostrarBomba(bomba){
-  console.log(bomba);
-  bomba.toElement.textContent= bomba.toElement.value;
+  for (var i=0 ; i<bombas.length;i++){
+    bombas[i].innerHTML= "<img src='assets/bomba.png' width='25px'>";
+  }
   alert("Game Over");
   deshabilitarBotones();
 }
@@ -36,7 +37,7 @@ for (var i=0 ; i<numeros.length;i++){
 }
 
 function mostrar(num){
-console.log(num)
+  console.log(num)
     num.toElement.textContent=num.toElement.value;
 }
 
